@@ -1,0 +1,93 @@
+ul li {
+  display: inline-block;
+  color: #fff;
+  font-size: 38px;
+  padding: 20px;
+}
+
+.works {
+  width: 50%;
+  height: 100%;
+  top: 0;
+  padding-top: 18%;
+  margin-left: 0;
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+}
+
+.worksright {
+  padding-left: 40px;
+  padding-bottom: 20px;
+  width: 450px;
+  height: 500px;
+  background: #000;
+  opacity: 0.3;
+  position: absolute;
+  top: 240px;
+
+
+  div {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+
+    border: 1px solid #ccc;
+    background: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px 0px lightyellow;
+  }
+}
+
+.heart {
+  list-style: none;
+  display: block;
+  position: absolute;
+  top: -1px;
+  left: 350px;
+
+  img {
+    width: 30px;
+
+  }
+}
+
+.heart2 {
+  list-style: none;
+  display: block;
+  position: absolute;
+  top: -1px;
+  left: 390px;
+  animation: fadeIn 1s 1.6s backwards;
+  img {
+    width: 30px;
+
+  }
+}
+
+.heart3 {
+  list-style: none;
+  display: block;
+  position: absolute;
+  top: -1px;
+  left: 430px;
+  animation: fadeIn 1s 1.8s backwards;
+
+  img {
+    width: 30px;
+
+  }
+}
+
+
+
+.bgHard1 {
+  position: absolute;
+  bottom: -270px;
+  left: 10px;
+  animation: fadeIn 1 1.5s backwards;
+}
