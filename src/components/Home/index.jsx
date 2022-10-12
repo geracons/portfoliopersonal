@@ -22,7 +22,7 @@ const Home = () => {
                 <h2>Thanks for visit my work!</h2>
                
                 
-                <p><Link to="/contact" className='flat-button' >DOWNLOAD RESUME</Link></p>
+                <p><a href="https://drive.google.com/file/d/1v5INifNkUzt6pp4Axkezfz12BEBtYYV4/view?usp=sharing" target="_blank" className='flat-button' rel="noreferrer">RESUME - CV</a></p>
             </div>
             <Logo />
         </div>

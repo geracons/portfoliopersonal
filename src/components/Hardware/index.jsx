@@ -9,9 +9,8 @@ import {
   faReact,
 } from '@fortawesome/free-brands-svg-icons'
 import heart from '../../assets/images/heart.png'
-import arcade from '../../assets/images/arcade.svg'
-import soft1 from '../../assets/images/soft1.png'
 import bgHard1 from '../../assets/images/9.svg'
+
 
 const Hardware = () => {
   return (
@@ -55,13 +54,16 @@ const Hardware = () => {
         </div>
         <div className="works">
           <div className="worksright">
-            
+      
           </div>
         </div>
       </div>
 
       <img src={bgHard1} alt="" className="bgHard1" />
      
+
+
+
       <Loader type="pacman" />
     </>
   )
