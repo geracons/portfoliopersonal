@@ -7,6 +7,7 @@ import 'animate.css';
 
 
 import React from 'react'
+import Aliens from './Aliens';
 const Contact = () => {
 
  
@@ -59,15 +60,9 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        <div className="invasion">
-          <div className="alieninvasion">
-             <img src={invasion} alt='' className='aliensito1'/>
-             <img src={invasion} alt='' className='aliensito2'/>
-             <img src={invasion} alt='' className='aliensito3'/>
-
-          </div>
+        <div className='aliensright'>
+        <Aliens />
         </div>
-        
       </div>
       <Loader type="pacman" />
     </>

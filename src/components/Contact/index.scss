@@ -132,22 +132,39 @@
   }
 }
 
-.aliensito1 {
-  position: absolute;
-  width: 10%;
-  right: 140px;
-  bottom: 250px;
-  
+.aliensright{
+  display: none;
 }
-.aliensito2 {
-  position: absolute;
-  width: 10%;
-  right: 420px;
-  bottom: -20px;
+
+@media (min-width: 1090px) {
+  .aliensright {
+    display: block;
+  }
+  .aliensitos1 {
+    margin-top: 0vh;
+    margin-right: 0px;
+    padding-left: 300px;
+    width: 50%;
+  }
+  .aliensitos2 {
+    margin-top: 10.4vh;
+    width: 50%;
+  }
+  .aliensitos3 {
+    margin-top: 2.7vh;
+    width: 50%;
+  }
+
 }
-.aliensito3 {
+
+
+.invasion {
+  width: 500px;
+  height: 700px;
   position: absolute;
-  width: 10%;
-  right: 540px;
-  bottom: 380px;
+  right: 0;
+}
+
+.aliensright {
+ float: right;
 }

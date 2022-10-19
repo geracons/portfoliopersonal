@@ -4,6 +4,7 @@ import {
   faHtml5,
   faJs,
   faJsSquare,
+  faNodeJs,
   faReact,
 } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -50,7 +51,7 @@ const About = () => {
               <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
             </div>
             <div className="face4">
-              <FontAwesomeIcon icon={faJs} color="#FFF" />
+              <FontAwesomeIcon icon={faNodeJs} color="#FFF" />
             </div>
             <div className="face5">
               <FontAwesomeIcon icon={faCss3} color="#28A4D9" />

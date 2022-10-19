@@ -1,9 +1,8 @@
 
-import { Link } from 'react-router-dom';
 import './index.scss';
 import Logo from './Logo';
 import Loader from 'react-loaders';
-
+import ParticlesComponent from '../Particles/Particles';
 
 const Home = () => {
 
@@ -24,10 +23,10 @@ const Home = () => {
                 
                 <p><a href="https://drive.google.com/file/d/1v5INifNkUzt6pp4Axkezfz12BEBtYYV4/view?usp=sharing" target="_blank" className='flat-button' rel="noreferrer">RESUME - CV</a></p>
             </div>
-            <Logo />
+            {/*<Logo />*/}
         </div>
         <Loader type='pacman' />
-
+        <ParticlesComponent />
         </>
     )
 }

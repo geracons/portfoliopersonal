@@ -1,0 +1,155 @@
+
+@mixin  tamaños($altura,$ancho) {
+    height: $altura;
+    width: $ancho;
+}
+
+.contenedor
+.contenedor2
+.contenedor3 {
+    display: none;
+}
+
+@media(min-width: 800px) {
+    .contenedor{
+        @include tamaños(450px,51% );
+        margin: 20px 100px;
+        animation: flotar 1.5s infinite ease-in-out alternate;
+        margin-top: 140px;
+    
+        .box-goku{
+            @include tamaños(100%,100%);
+            transform-style: preserve-3d;
+        
+            img{
+                background-size: cover;
+            }
+          
+            .goku_p{
+               
+                @include tamaños(27%,20%);
+               transform:translateZ(10px);
+                transform-style: preserve-3d;
+                
+            }
+            $tiempo1:0.6s;
+       
+            $rotacion1:55deg;
+            @keyframes volar {
+            100%{
+                transform:translateX(100px) rotateY(-$rotacion1);
+            }
+            }
+            @keyframes volar2 {
+                100%{
+                    transform:translateX(-100px) rotateY($rotacion1);
+                }
+                }
+          
+            }
+    }
+    .contenedor2{
+        @include tamaños(450px,51% );
+        margin: 20px 100px;
+        animation: flotar 1.1s infinite ease-in-out alternate;
+        margin-top: -290px;
+        margin-left: 0px;
+        
+        .box-goku{
+            @include tamaños(100%,100%);
+            transform-style: preserve-3d;
+        
+            img{
+                background-size: cover;
+            }
+          
+            .goku_p{
+               
+                @include tamaños(27%,20%);
+               transform:translateZ(10px);
+                transform-style: preserve-3d;
+                
+            }
+            $tiempo1:0.6s;
+       
+            $rotacion1:55deg;
+            @keyframes volar {
+            100%{
+                transform:translateX(100px) rotateY(-$rotacion1);
+            }
+            }
+            @keyframes volar2 {
+                100%{
+                    transform:translateX(-100px) rotateY($rotacion1);
+                }
+                }
+          
+            }
+    }
+    .contenedor3{
+        @include tamaños(450px,51% );
+        margin: 20px 100px;
+        animation: flotar 1.5s infinite ease-in-out alternate;
+        margin-top: -590px;
+        
+        .box-goku{
+            @include tamaños(100%,100%);
+            transform-style: preserve-3d;
+        
+            img{
+                background-size: cover;
+            }
+          
+            .goku_p{
+               
+                @include tamaños(27%,20%);
+               transform:translateZ(10px);
+                transform-style: preserve-3d;
+                
+            }
+            $tiempo1:0.6s;
+       
+            $rotacion1:55deg;
+            @keyframes volar {
+            100%{
+                transform:translateX(100px) rotateY(-$rotacion1);
+            }
+            }
+            @keyframes volar2 {
+                100%{
+                    transform:translateX(-100px) rotateY($rotacion1);
+                }
+                }
+          
+            }
+    }
+}
+
+.sombra{
+  transform-style:preserve-3d;
+    @include tamaños(60px,200px );
+    background-color: #333;
+    border-radius: 50%;
+    margin: 0 35.5em;
+    transform: rotateX(-90deg);
+    animation: sombra 1.5s infinite ease-in-out alternate;
+}
+$rotacion2:50deg;
+@keyframes sombra {
+    0%{
+        transform: scale(1) rotateX($rotacion2);
+    }
+    100%{
+        transform: scale(.4) rotateX($rotacion2);
+      opacity:.3;
+    }
+}
+@keyframes flotar{
+    0%{
+        transform: translateY(0) scale(.8) translateZ(95px);
+    }
+    100%{
+        transform: translateY(-85px) scale(.8) translateZ(95px);
+    }
+}
+

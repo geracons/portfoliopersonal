@@ -7,6 +7,8 @@ import Contact from './components/Contact/'
 import Software from './components/Software';
 import Hardware from './components/Hardware';
 
+import ParticlesComponent from './components/Particles/Particles';
+
 
 function App() {
   return (
@@ -21,7 +23,7 @@ function App() {
       
       </Route>
     </Routes>
-   
+    
    
    </>
   );
