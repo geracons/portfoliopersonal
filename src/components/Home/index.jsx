@@ -1,6 +1,5 @@
 
 import './index.scss';
-import Logo from './Logo';
 import Loader from 'react-loaders';
 import ParticlesComponent from '../Particles/Particles';
 
@@ -21,7 +20,7 @@ const Home = () => {
                 <h2>Thanks for visit my work!</h2>
                
                 
-                <p><a href="https://drive.google.com/file/d/1v5INifNkUzt6pp4Axkezfz12BEBtYYV4/view?usp=sharing" target="_blank" className='flat-button' rel="noreferrer">RESUME - CV</a></p>
+                <p><a href="https://drive.google.com/file/d/1yjdIx7fEtLq_7LuIRoZpFeDPXLXMinOf/view?usp=share_link" target="_blank" className='flat-button' rel="noreferrer">RESUME - CV</a></p>
             </div>
             {/*<Logo />*/}
         </div>
